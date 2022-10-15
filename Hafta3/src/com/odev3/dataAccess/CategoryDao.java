@@ -1,5 +1,7 @@
 package com.odev3.dataAccess;
 
-public class CategoryDao {
-    
+import com.odev3.entities.Category;
+
+public interface CategoryDao {
+    void add(Category category);
 }

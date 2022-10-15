@@ -1,5 +1,10 @@
 package com.odev3.dataAccess;
 
-public class HibernateTeacherDao {
-    
+import com.odev3.entities.Teacher;
+
+public class HibernateTeacherDao implements TeacherDao{
+    @Override
+    public void add(Teacher teacher) {
+        System.out.println("Ogretmen hibernate ile veritabanina eklendi.");
+    }
 }

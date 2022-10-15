@@ -1,5 +1,7 @@
 package com.odev3.dataAccess;
 
-public class TeacherDao {
-    
+import com.odev3.entities.Teacher;
+
+public interface TeacherDao {
+    void add(Teacher teacher);
 }
